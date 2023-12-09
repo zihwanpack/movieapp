@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 200px;
-  margin: 30px;
+
   h2 {
+    margin: 20px;
     color: white;
     font-size: 1.3rem;
   }
