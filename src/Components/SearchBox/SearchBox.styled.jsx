@@ -56,7 +56,13 @@ export const Container = styled.div`
     ${theme.style.signUpBox};
     background-color: #ee4540;
     border: none;
+    color: white;
   }
+
+  input:focus {
+    outline: none;
+  }
+
   input::placeholder {
     color: white;
     font-style: italic;
